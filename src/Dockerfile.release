@@ -1,3 +1,3 @@
 FROM  windowsservercoreiis
 
-COPY index.html C:/inetpub
+COPY index.html /inetpub
