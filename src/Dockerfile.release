@@ -1,9 +1,8 @@
 FROM  windowsservercoreiis
 
-COPY project.json /app/
-WORKDIR /app
+# WORKDIR /app
 #RUN ["dnu", "restore"]
-COPY . /app
+COPY . /inetpub
 
 # default to running the container on port 5000
 # ARG CONTAINER_PORT=5000
